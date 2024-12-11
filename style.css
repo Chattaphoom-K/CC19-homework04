@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.post-box {
+  background-color: white;
+  border-radius: 8px;
+  width: 50vw;
+  min-width: 440px;
+  max-width: 660px;
+  padding: 12px 16px 10px;
+  box-shadow: 2px 1px 16px 3px rgba(0, 0, 0, 0.64);
+}
+.content {
+  display: flex;
+  overflow: hidden;
+}
+.content a img {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(49, 47, 47);
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 8px;
+}
+.content input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-block: auto;
+  padding: 8px 12px;
+  flex-grow: 1;
+  border-radius: 20px;
+  background-color: lightgray;
+  border: none;
+  max-width: 600px;
+}
+.additional {
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+.additional > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 10px;
+  min-width: 140px;
+  max-width: 200px;
+}
+.icon img {
+  width: 24px;
+}
+.hover:hover {
+  background-color: silver;
+  color: azure;
+  cursor: pointer;
+}
